@@ -8,13 +8,9 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>James Ian Caddick</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Full Stack Web Developer
         </p>
       </div>
     </div>
@@ -35,7 +31,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Projects
           </button>
         </li>
         <li>
@@ -44,7 +40,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            About Me
           </button>
         </li>
         <li>
