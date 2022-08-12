@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import { Card, CardGroup, CardTitle, CardSubtitle, CardBody, CardImg,CardText, Button } from 'reactstrap'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -28,27 +27,22 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Hi, I'm James...</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={`../../swing.jpg`} alt="The swing at the end of the world, La casa del arbol" />
           </span>
           <p>
-            Hello all, and thanks for taking the time to read my about me..
+            and thanks for taking time out of your day to look through my portfolio..
           </p>
+          
           <p>
-            My name's James, I'm a 32-year-old father of two from the UK. I'm currently based in Colombia but looking to relocate sometime in the next two years. I've had a plethora of different jobs and responsibilities in my working life and each position has contributed to the person I am today. I consider myself a philosopher and try to live by the mantra of Rabbi Hillel who said, "That which is hateful to you, do not do to another. That is the whole Law. The rest is commentary. Now go and learn".
-          </p>
-          <p>
-            In 2014 I left the UK on a 1-way ticket, in 2017 I met my future wife, and in 2021 we started a family together. Each of these events changed my life for the better and in 2022 I decided to give up my teaching/ coaching positions to embark on a new career in tech- another decision I feel tremendously good about. 
+            ... Intro
           </p>
           <p>
             The life experience and soft skills I gained while traveling, and more recently serving business executives in a coaching capacity, have helped to mold me into a well-rounded and compassionate professional individual with a genuine desire to do good in my work.
           </p>
           <p>
-            I'm also an avid reader and particularly enjoy the works of Tolstoy, Henry Thoreux, Thich Nhat Hanh, George Orwell, Deepak Chopra, Paolo Coelho, Marcus Aurelius, and Gabriel Garcia Marquez as well as a recently rekindled enjoyment of some old Dr. Seuss classics (they're some of my son's favorites).
-          </p>
-          <p>
-            I look forward to making your acquaintance. 
+            I really care about the work I do so I hope you enjoy the experience and I look forward to meeting you soon.
           </p>
           <p>
             James.
@@ -68,7 +62,83 @@ class Main extends React.Component {
             Click on the images below to read more and see demos of some of my work.
           </p>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <CardGroup>
+              <Card>
+                <CardImg
+                  alt="Card image cap"
+                  src="https://picsum.photos/318/180"
+                  top
+                  width="100%"
+                />
+                <CardBody>
+                  <CardTitle tag="h5">
+                    Card title
+                  </CardTitle>
+                  <CardSubtitle
+                    className="mb-2 text-muted"
+                    tag="h6"
+                  >
+                    Card subtitle
+                  </CardSubtitle>
+                  <CardText>
+                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                  </CardText>
+                  <Button>
+                    Button
+                  </Button>
+                </CardBody>
+              </Card>
+              <Card>
+                <CardImg
+                  alt="Card image cap"
+                  src="https://picsum.photos/318/180"
+                  top
+                  width="100%"
+                />
+                <CardBody>
+                  <CardTitle tag="h5">
+                    Card title
+                  </CardTitle>
+                  <CardSubtitle
+                    className="mb-2 text-muted"
+                    tag="h6"
+                  >
+                    Card subtitle
+                  </CardSubtitle>
+                  <CardText>
+                    This card has supporting text below as a natural lead-in to additional content.
+                  </CardText>
+                  <Button>
+                    Button
+                  </Button>
+                </CardBody>
+              </Card>
+              <Card>
+                <CardImg
+                  alt="Card image cap"
+                  src="https://picsum.photos/318/180"
+                  top
+                  width="100%"
+                />
+                <CardBody>
+                  <CardTitle tag="h5">
+                    Card title
+                  </CardTitle>
+                  <CardSubtitle
+                    className="mb-2 text-muted"
+                    tag="h6"
+                  >
+                    Card subtitle
+                  </CardSubtitle>
+                  <CardText>
+                    This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                  </CardText>
+                  <Button>
+                    Button
+                  </Button>
+                </CardBody>
+              </Card>
+            </CardGroup>
           </span>
           {close}
         </article>
@@ -115,7 +185,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input type="submit" value="Send Message" className="special"  />
               </li>
               <li>
                 <input type="reset" value="Reset" />
@@ -126,6 +196,13 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://github.com/JICaddick"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+           
+              <a
+                href="https://www.linkedin.com/in/james-caddick/"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
