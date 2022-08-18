@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { Card, CardGroup, CardTitle, CardSubtitle, CardBody, CardImg,CardText, Button } from 'reactstrap'
+import { Col, Card, CardGroup, CardTitle, CardSubtitle, CardBody, CardImg,CardText, Button, Table } from 'reactstrap'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -32,17 +32,17 @@ class Main extends React.Component {
             <img src={`../../swing.jpg`} alt="The swing at the end of the world, La casa del arbol" />
           </span>
           <p>
-            and thanks for taking time out of your day to look through my portfolio..
+            and thanks for taking time out of your day to look through my portfolio...
           </p>
           
           <p>
-            ... Intro
+            I've always been passionate about technology as a user but until fairly I recently hadn't considered venturing to the other side of technology and learning about development. About 6 months ago I signed up to a free JavaScript course online and since then I've been hooked. From functionality to structure, UI/UX to RoR, and even various software applications, every new technology is an adventure in and of itself. 
+          </p>
+          <p> 
+            I'm thoroughly enjoying the variety of full stack development at LEARN and can see myself in either a full stack or front-end role in the very near future. 
           </p>
           <p>
-            The life experience and soft skills I gained while traveling, and more recently serving business executives in a coaching capacity, have helped to mold me into a well-rounded and compassionate professional individual with a genuine desire to do good in my work.
-          </p>
-          <p>
-            I really care about the work I do so I hope you enjoy the experience and I look forward to meeting you soon.
+            Please enjoy your time here on my portfolio; I really care about the work I do so I hope you enjoy the experience. I trust it will give you an insight into who I am, where I'm at right now, and where I'm going on my tech journey. If you'd like to know more about me please checkout the links on the contact page or shoot me a message- I look forward to meeting you soon.
           </p>
           <p>
             James.
@@ -58,86 +58,88 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          <p>
-            Click on the images below to read more and see demos of some of my work.
-          </p>
           <span className="image main">
             <CardGroup>
-              <Card>
-                <CardImg
-                  alt="Card image cap"
-                  src="https://picsum.photos/318/180"
-                  top
-                  width="100%"
-                />
-                <CardBody>
-                  <CardTitle tag="h5">
-                    Card title
-                  </CardTitle>
-                  <CardSubtitle
-                    className="mb-2 text-muted"
-                    tag="h6"
-                  >
-                    Card subtitle
-                  </CardSubtitle>
-                  <CardText>
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                  </CardText>
-                  <Button>
-                    Button
-                  </Button>
-                </CardBody>
-              </Card>
-              <Card>
-                <CardImg
-                  alt="Card image cap"
-                  src="https://picsum.photos/318/180"
-                  top
-                  width="100%"
-                />
-                <CardBody>
-                  <CardTitle tag="h5">
-                    Card title
-                  </CardTitle>
-                  <CardSubtitle
-                    className="mb-2 text-muted"
-                    tag="h6"
-                  >
-                    Card subtitle
-                  </CardSubtitle>
-                  <CardText>
-                    This card has supporting text below as a natural lead-in to additional content.
-                  </CardText>
-                  <Button>
-                    Button
-                  </Button>
-                </CardBody>
-              </Card>
-              <Card>
-                <CardImg
-                  alt="Card image cap"
-                  src="https://picsum.photos/318/180"
-                  top
-                  width="100%"
-                />
-                <CardBody>
-                  <CardTitle tag="h5">
-                    Card title
-                  </CardTitle>
-                  <CardSubtitle
-                    className="mb-2 text-muted"
-                    tag="h6"
-                  >
-                    Card subtitle
-                  </CardSubtitle>
-                  <CardText>
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
-                  </CardText>
-                  <Button>
-                    Button
-                  </Button>
-                </CardBody>
-              </Card>
+              <Col sm={4}>
+                <Card>
+                  <CardImg
+                    alt="DSCVR Logo"
+                    src={`../../DSCVR.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h5">
+                      DSCVR
+                    </CardTitle>
+                    <CardSubtitle
+                      className="mb-2 text-muted"
+                      tag="h6"
+                    >
+                      Capstone project
+                    </CardSubtitle>
+                    <CardText>
+                      DSCVR something new today. New to the area or long-time local? No idea how to spend your weekend or where to take your partner out on a date? Looking for a fun place to take your kids or somewhere for your dog to get a good run around? Find the perfect activity with DSCVR. 
+                    </CardText>
+                    <Button>
+                      Button
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br/>
+                <Card>
+                  <CardImg
+                    alt="Monkey Tinder"
+                    src={`../../monkeytinder.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h5">
+                      Monkey Tinder
+                    </CardTitle>
+                    <CardSubtitle
+                      className="mb-2 text-muted"
+                      tag="h6"
+                    >
+                      Dating Application for Monkeys
+                    </CardSubtitle>
+                    <CardText>
+                      Quit monkeying around and find your perfect pri-mate. With full CRUD functionality this pair-programmed app employs microservices architecture with a React front end and a Ruby on Rails backend. Moving into the Monkey dating space was a difficult decision but, with their opposable thumbs, we figured it's only a matter of time before monkeys pick up smartphones and start swiping!
+                    </CardText>
+                    <Button>
+                      Button
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br/>
+                <Card>
+                  <CardImg
+                    alt="Apartment App Picture"
+                    src={`../../apartment.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h5">
+                      Apartment App
+                    </CardTitle>
+                    <CardSubtitle
+                      className="mb-2 text-muted"
+                      tag="h6"
+                    >
+                      Group Project
+                    </CardSubtitle>
+                    <CardText>
+                      Full stack, monolithic, React in Rails application. Featuring full CRUD functionality you can find, create, update, and delete apartments from your list. Mob programmed to near completion, CSS styling done subsequently by yours truly. 
+                    </CardText>
+                    <Button>
+                      Button
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br/>
+              </Col>
             </CardGroup>
           </span>
           {close}
@@ -150,13 +152,21 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
-          <p>
-            Hover over different sections of the image below to learn more about me! 
-          </p>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          <h2 className="major">Skills</h2>
+            <table class="skills_table">
+            <tr>
+                <td><i class="fa-brands fa-js fa-5x"></i></td>
+                <td><i class="fa-brands fa-react fa-5x"></i></td>
+                <td><img src = "https://www.pngfind.com/pngs/b/344-3441378_ruby-on-rails-png.png" alt = "Rails Icon" height="75px" width="100px" /></td>
+                <td><img src = "./src/images/pngegg.png" alt = "Postgresql Icon"  /></td>
+            </tr> 
+            <tr>
+                <td>JavaScript</td>
+                <td>React</td>
+                <td>Ruby on Rails</td>
+                <td>Postgresql</td>
+            </tr>
+        </table>
           {close}
         </article>
 
@@ -200,12 +210,11 @@ class Main extends React.Component {
               >
                 <span className="label">GitHub</span>
               </a>
-           
               <a
                 href="https://www.linkedin.com/in/james-caddick/"
-                className="icon fa-github"
+                className = "icon fa-linkedin"
               >
-                <span className="label">GitHub</span>
+                <span className="label">LinkedIn</span>
               </a>
             </li>
           </ul>
