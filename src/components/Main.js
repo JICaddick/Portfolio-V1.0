@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { Col, Card, CardGroup, CardTitle, CardSubtitle, CardBody, CardImg,CardText, Button, Table } from 'reactstrap'
-import pic03 from '../images/pic03.jpg'
+import { Col, Card, CardGroup, CardTitle, CardSubtitle, CardBody, CardImg, CardText, Button, Table, Row } from 'reactstrap'
 
 class Main extends React.Component {
   render() {
@@ -27,7 +26,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Hi, I'm James...</h2>
+          <h2 className="major">Hi, I'm James</h2>
           <span className="image main">
             <img src={`../../swing.jpg`} alt="The swing at the end of the world, La casa del arbol" />
           </span>
@@ -153,20 +152,65 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Skills</h2>
-            <table class="skills_table">
-            <tr>
-                <td><i class="fa-brands fa-js fa-5x"></i></td>
-                <td><i class="fa-brands fa-react fa-5x"></i></td>
-                <td><img src = "https://www.pngfind.com/pngs/b/344-3441378_ruby-on-rails-png.png" alt = "Rails Icon" height="75px" width="100px" /></td>
-                <td><img src = "./src/images/pngegg.png" alt = "Postgresql Icon"  /></td>
-            </tr> 
-            <tr>
-                <td>JavaScript</td>
-                <td>React</td>
-                <td>Ruby on Rails</td>
-                <td>Postgresql</td>
-            </tr>
-        </table>
+
+          <Table>
+            <thead>
+              <Col md={4} sm={12}>
+              <tr>
+                <th scope="row"></th>
+                <td>
+                  <img src={`../../js.jpeg`} width="70px" ></img>
+                  <img src={`../../html.jpeg`} width="70px" ></img>
+                  <img src={`../../css.jpeg`} width="70px" ></img>
+                  <img src={`../../sass.jpeg`} width="70px" ></img>
+                </td>
+                </tr>
+                </Col>
+            </thead> 
+            <thead>
+              <tr>
+                <th scope="row"></th>
+                <td>
+                  <img src={`../../react.jpeg`} width="90px" ></img>
+                  <img src={`../../ruby.jpeg`} width="90px" ></img>
+                  <img src={`../../ror.jpeg`} width="90px" ></img>
+                  <img src={`../../bootstrap.jpeg`} width="90px" ></img>
+                </td>
+              </tr>
+            </thead> 
+            <thead>
+              <tr>
+                <th scope="row"></th>
+                <td>
+                  <img src={`../../postgresql.jpeg`} width="90px" ></img>
+                  <img src={`../../npm.jpeg`} width="90px" ></img>
+                  <img src={`../../postman.jpeg`} width="90px" ></img>
+                </td>
+              </tr>
+            </thead> 
+            <thead>
+              <tr>
+                <th scope="row"></th>
+                <td>
+                  <img src={`../../jest.jpeg`} width="90px" ></img>
+                  <img src={`../../rspec.jpeg`} width="90px" ></img>
+                  <img src={`../../github.jpeg`} width="90px" ></img>
+                  <img src={`../../figma.jpeg`} width="90px" ></img>
+                </td>
+              </tr>
+            </thead> 
+            <thead>
+              <tr>
+                <th scope="row"></th>
+                <td>
+                  <img src={`../../canva.jpeg`} width="90px" ></img>
+                  <img src={`../../trello.jpeg`} width="90px" ></img>
+                  <img src={`../../slack.jpeg`} width="90px" ></img>
+                  <img src={`../../vscode.jpeg`} width="90px" ></img>
+                </td>
+              </tr>
+            </thead> 
+        </Table>
           {close}
         </article>
 
