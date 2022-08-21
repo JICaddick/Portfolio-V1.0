@@ -219,7 +219,7 @@ class Main extends React.Component {
           >
           <p>So, you want to work with me? Great! Drop me a line and let's talk.
           </p>
-          <form method="post" action="#">
+          <form method="post" action="#" data-netlify="true">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
