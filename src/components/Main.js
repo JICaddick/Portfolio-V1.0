@@ -68,17 +68,17 @@ class Main extends React.Component {
                     width="100%"
                   />
                   <CardBody>
-                    <CardTitle tag="h5">
+                    <CardTitle tag="h2">
                       DSCVR
                     </CardTitle>
                     <CardSubtitle
                       className="mb-2 text-muted"
-                      tag="h6"
+                      tag="h5"
                     >
                       Capstone project
                     </CardSubtitle>
                     <CardText>
-                      DSCVR something new today. New to the area or long-time local? No idea how to spend your weekend or where to take your partner out on a date? Looking for a fun place to take your kids or somewhere for your dog to get a good run around? Find the perfect activity with DSCVR. 
+                      DSCVR something new today. New to the area or long-time local? No idea how to spend your weekend or where to take your partner out on a date? Looking for a fun place to take your kids or somewhere for your dog to get a good run around? Find the perfect activity with DSCVR. Deployment scheduled for Monday, 22nd of August. 
                     </CardText>
                     <Button>
                       Button
@@ -94,17 +94,17 @@ class Main extends React.Component {
                     width="100%"
                   />
                   <CardBody>
-                    <CardTitle tag="h5">
+                    <CardTitle tag="h2">
                       Monkey Tinder
                     </CardTitle>
                     <CardSubtitle
                       className="mb-2 text-muted"
-                      tag="h6"
+                      tag="h5"
                     >
                       Dating Application for Monkeys
                     </CardSubtitle>
                     <CardText>
-                      Quit monkeying around and find your perfect pri-mate. With full CRUD functionality this pair-programmed app employs microservices architecture with a React front end and a Ruby on Rails backend. Moving into the Monkey dating space was a difficult decision but, with their opposable thumbs, we figured it's only a matter of time before monkeys pick up smartphones and start swiping!
+                      Quit monkeying around and find your perfect pri-mate. With full CRUD functionality this pair-programmed app employs microservices architecture with a React front end and a Ruby on Rails backend. Moving into the Monkey dating space was a difficult decision but, with their opposable thumbs, we figured it's only a matter of time before monkeys start swiping too! Bug fix pending. 
                     </CardText>
                     <Button>
                       Button
@@ -120,17 +120,17 @@ class Main extends React.Component {
                     width="100%"
                   />
                   <CardBody>
-                    <CardTitle tag="h5">
+                    <CardTitle tag="h2">
                       Apartment App
                     </CardTitle>
                     <CardSubtitle
                       className="mb-2 text-muted"
-                      tag="h6"
+                      tag="h5"
                     >
-                      Group Project
+                      Find Apartments For Rent
                     </CardSubtitle>
                     <CardText>
-                      Full stack, monolithic, React in Rails application. Featuring full CRUD functionality you can find, create, update, and delete apartments from your list. Mob programmed to near completion, CSS styling done subsequently by yours truly. 
+                      Full stack, monolithic, React in Rails application. Featuring full CRUD functionality you can find, create, update, and delete apartments from your list. Mob programmed to near completion. Functionality edits and CSS pending. 
                     </CardText>
                     <Button>
                       Button
@@ -155,60 +155,51 @@ class Main extends React.Component {
 
           <Table>
             <thead>
-              <Col md={4} sm={12}>
               <tr>
-                <th scope="row"></th>
-                <td>
-                  <img src={`../../js.jpeg`} width="70px" ></img>
-                  <img src={`../../html.jpeg`} width="70px" ></img>
-                  <img src={`../../css.jpeg`} width="70px" ></img>
-                  <img src={`../../sass.jpeg`} width="70px" ></img>
+                <td id="container">
+                  <img src={`../../js.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../html.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../css.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../sass.jpeg`} width="80px" height="80px" ></img>
                 </td>
                 </tr>
-                </Col>
             </thead> 
             <thead>
               <tr>
-                <th scope="row"></th>
                 <td>
-                  <img src={`../../react.jpeg`} width="90px" ></img>
-                  <img src={`../../ruby.jpeg`} width="90px" ></img>
-                  <img src={`../../ror.jpeg`} width="90px" ></img>
-                  <img src={`../../bootstrap.jpeg`} width="90px" ></img>
+                  <img src={`../../react.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../ruby.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../ror.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../bootstrap.jpeg`} width="80px" height="80px" ></img>
                 </td>
               </tr>
             </thead> 
             <thead>
               <tr>
-                <th scope="row"></th>
                 <td>
-                  <img src={`../../postgresql.jpeg`} width="90px" ></img>
-                  <img src={`../../npm.jpeg`} width="90px" ></img>
-                  <img src={`../../postman.jpeg`} width="90px" ></img>
+                  <img src={`../../postgresql.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../npm.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../postman.jpeg`} width="80px" height="80px" ></img>
                 </td>
               </tr>
             </thead> 
             <thead>
               <tr>
-                <th scope="row"></th>
                 <td>
-                  <img src={`../../jest.jpeg`} width="90px" ></img>
-                  <img src={`../../rspec.jpeg`} width="90px" ></img>
-                  <img src={`../../github.jpeg`} width="90px" ></img>
-                  <img src={`../../figma.jpeg`} width="90px" ></img>
+                  <img src={`../../jest.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../rspec.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../github.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../figma.jpeg`} width="80px" height="80px" ></img>
                 </td>
               </tr>
             </thead> 
             <thead>
-              <tr>
-                <th scope="row"></th>
                 <td>
-                  <img src={`../../canva.jpeg`} width="90px" ></img>
-                  <img src={`../../trello.jpeg`} width="90px" ></img>
-                  <img src={`../../slack.jpeg`} width="90px" ></img>
-                  <img src={`../../vscode.jpeg`} width="90px" ></img>
+                  <img src={`../../canva.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../trello.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../slack.jpeg`} width="80px" height="80px" ></img>
+                  <img src={`../../vscode.jpeg`} width="80px" height="80px" ></img>
                 </td>
-              </tr>
             </thead> 
         </Table>
           {close}

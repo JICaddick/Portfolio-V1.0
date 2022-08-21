@@ -8,21 +8,22 @@
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
-		overflow-x: auto;
+
 	}
 
 	table {
 		margin: 0 0 _size(element-margin) 0;
 		width: 100%;
-
+	display: flex;
+		align-items: center;
+		justify-content: center;
 		tbody {
 			tr {
 				border: solid _size(border-width) _palette(border);
-				border-left: 0;
-				border-right: 0;
+
 
 				&:nth-child(2n + 1) {
-					background-color: _palette(border-bg);
+					background-color: _palette(border-bg);	
 				}
 			}
 		}
