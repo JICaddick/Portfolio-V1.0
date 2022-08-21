@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { Col, Card, CardGroup, CardTitle, CardSubtitle, CardBody, CardImg, CardText, Button, Table, Row } from 'reactstrap'
+import { Col, Card, CardGroup, CardTitle, CardSubtitle, CardBody, CardImg, CardText, Button, Table } from 'reactstrap'
 
 class Main extends React.Component {
   render() {
@@ -80,8 +80,8 @@ class Main extends React.Component {
                     <CardText>
                       DSCVR something new today. New to the area or long-time local? No idea how to spend your weekend or where to take your partner out on a date? Looking for a fun place to take your kids or somewhere for your dog to get a good run around? Find the perfect activity with DSCVR. Deployment scheduled for Monday, 22nd of August. 
                     </CardText>
-                    <Button>
-                      Button
+                    <Button href="https://github.com/JICaddick">
+                      <span className="label">Coming 22-08</span>
                     </Button>
                   </CardBody>
                 </Card>
@@ -106,8 +106,12 @@ class Main extends React.Component {
                     <CardText>
                       Quit monkeying around and find your perfect pri-mate. With full CRUD functionality this pair-programmed app employs microservices architecture with a React front end and a Ruby on Rails backend. Moving into the Monkey dating space was a difficult decision but, with their opposable thumbs, we figured it's only a matter of time before monkeys start swiping too! Bug fix pending. 
                     </CardText>
-                    <Button>
-                      Button
+                    <Button href="https://github.com/JICaddick/Monkey-Tinder-Frontend">
+                    <span className="label">Front End</span>
+                    </Button>
+                    <br/>
+                    <Button href="https://github.com/JICaddick/Monkey-Tinder-Backend">
+                    <span className="label">Back End</span>
                     </Button>
                   </CardBody>
                 </Card>
@@ -132,8 +136,8 @@ class Main extends React.Component {
                     <CardText>
                       Full stack, monolithic, React in Rails application. Featuring full CRUD functionality you can find, create, update, and delete apartments from your list. Mob programmed to near completion. Functionality edits and CSS pending. 
                     </CardText>
-                    <Button>
-                      Button
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                    <span className="label">Source Code</span>
                     </Button>
                   </CardBody>
                 </Card>
@@ -201,7 +205,7 @@ class Main extends React.Component {
                   <img src={`../../vscode.jpeg`} width="80px" height="80px" ></img>
                 </td>
             </thead> 
-        </Table>
+          </Table>
           {close}
         </article>
 
@@ -210,9 +214,9 @@ class Main extends React.Component {
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Contact</h2>
+          style={{ display: 'none' }}>
+          <h2 className="major">Contact</h2
+          >
           <p>So, you want to work with me? Great! Drop me a line and let's talk.
           </p>
           <form method="post" action="#">
