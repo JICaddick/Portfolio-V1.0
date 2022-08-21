@@ -219,8 +219,8 @@ class Main extends React.Component {
           >
           <p>So, you want to work with me? Great! Drop me a line and let's talk.
           </p>
-          <form method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="contact" />
+<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
