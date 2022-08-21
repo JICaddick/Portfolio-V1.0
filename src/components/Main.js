@@ -31,7 +31,7 @@ class Main extends React.Component {
             <img src={`../../swing.jpg`} alt="The swing at the end of the world, La casa del arbol" />
           </span>
           <p>
-            and thanks for taking time out of your day to look through my portfolio...
+            and welcome to my portfolio...
           </p>
           
           <p>
