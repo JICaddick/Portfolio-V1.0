@@ -3,7 +3,7 @@
 <ul>
   <li> Custom components </li>
   <li> Deployed on netlify </li>
-  <li> Created using Gatsby.js React framework - See original version here: https://gatsby-dimension.surge.sh/ </li>
+  <li> Created using Gatsby.js React framework. See original version here: https://gatsby-dimension.surge.sh/ </li>
 </ul>
 <br/>
 <h2>
