@@ -1,11 +1,11 @@
-<h1> Check out my portfolio 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇨🇴 🇺🇸 🂡 🂱 </h1>
+<h1> 🂡 🂱 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇨🇴 🇺🇸 Check out my portfolio 🇺🇸 🇨🇴 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🃑 🃁 </h1>
 
 <ul>
-  <li> Created using Gatsby.js React framework - See original version here: https://gatsby-dimension.surge.sh/ </li>
-  <li> Custom components added </li>
+  <li> Custom components </li>
   <li> Deployed on netlify </li>
+  <li> Created using Gatsby.js React framework - See original version here: https://gatsby-dimension.surge.sh/ </li>
 </ul>
-<br/><br/>
+<br/>
 <h2>
-<a href="https://jamescaddick-dev.netlify.app/">See it live here!</a>
+<a href="https://jamescaddick-dev.netlify.app/" target="_blank" rel="noreferrer">See it live here!</a>
   </h2>
