@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { Col, Card, CardGroup, CardTitle, CardSubtitle, CardBody, CardImg, CardText, Button, Table } from 'reactstrap'
+import { Link } from 'gatsby'
 
 class Main extends React.Component {
   render() {
@@ -34,7 +35,6 @@ class Main extends React.Component {
             />
           </span>
           <p>and welcome to my portfolio...</p>
-
           <p>
             I've always been passionate about technology as a user but until
             fairly I recently hadn't considered venturing to the other side of
@@ -59,11 +59,18 @@ class Main extends React.Component {
           </p>
           <p>James.</p>
           {close}
+          {/* What the fuck are you actually trying to do here?... Navigate from intro article to projects. You need to naivgate to Main.js and then to an active article  */}
+          <Link to="/page-2">Go to projects? Na, try page 2</Link>
+          <br />
+          <br />
+          <Link to="/{'article.projects'}" state={{ active: true }}>
+            Projects maybe?
+          </Link>
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
@@ -155,20 +162,14 @@ class Main extends React.Component {
                 </Card>
                 <br />
                 <Card>
-                  <CardImg
-                    alt=""
-                    src={``}
-                    top
-                    width="100%"
-                  />
+                  <CardImg alt="" src={``} top width="100%" />
                   <CardBody>
                     <CardTitle tag="h2"></CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-
-                    </CardSubtitle>
-                    <CardText>
-
-                    </CardText>
+                    <CardSubtitle
+                      className="mb-2 text-muted"
+                      tag="h5"
+                    ></CardSubtitle>
+                    <CardText></CardText>
                     <Button href="">
                       <span className="label">Source Code</span>
                     </Button>
