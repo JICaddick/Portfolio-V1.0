@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { Col, Card, CardGroup, CardTitle, CardSubtitle, CardBody, CardImg, CardText, Button, Table } from 'reactstrap'
-import { Link } from 'gatsby'
 
 class Main extends React.Component {
   render() {
@@ -59,13 +58,6 @@ class Main extends React.Component {
           </p>
           <p>James.</p>
           {close}
-          {/* What the fuck are you actually trying to do here?... Navigate from intro article to projects. You need to naivgate to Main.js and then to an active article  */}
-          <Link to="/page-2">Go to projects? Na, try page 2</Link>
-          <br />
-          <br />
-          <Link to="/{'article.projects'}" state={{ active: true }}>
-            Projects maybe?
-          </Link>
         </article>
 
         <article
@@ -182,8 +174,8 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="skills"
+          className={`${this.props.article === 'skills' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
