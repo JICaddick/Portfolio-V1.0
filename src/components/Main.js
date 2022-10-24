@@ -73,32 +73,6 @@ class Main extends React.Component {
               <Col sm={4}>
                 <Card>
                   <CardImg
-                    alt="DSCVR Logo"
-                    src={`../../DSCVR.jpeg`}
-                    top
-                    width="100%"
-                  />
-                  <CardBody>
-                    <CardTitle tag="h2">DSCVR</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Capstone project
-                    </CardSubtitle>
-                    <CardText>
-                      DSCVR something new today. New to the area or long-time
-                      local? No idea how to spend your weekend or where to take
-                      your partner out on a date? Looking for a fun place to
-                      take your kids or somewhere for your dog to get a good run
-                      around? Find the perfect activity with DSCVR. Deployment
-                      scheduled for Monday, 22nd of August.
-                    </CardText>
-                    <Button href="https://github.com/JICaddick">
-                      <span className="label">Coming 22-08</span>
-                    </Button>
-                  </CardBody>
-                </Card>
-                <br />
-                <Card>
-                  <CardImg
                     alt="Monkey Tinder"
                     src={`../../monkeytinder.jpeg`}
                     top
@@ -153,6 +127,88 @@ class Main extends React.Component {
                   </CardBody>
                 </Card>
                 <br />
+                <Card>
+                  <CardImg
+                    alt="DSCVR Logo"
+                    src={`../../DSCVR.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">DSCVR</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Capstone project
+                    </CardSubtitle>
+                    <CardText>
+                      DSCVR something new today. New to the area or long-time
+                      local? No idea how to spend your weekend or where to take
+                      your partner out on a date? Looking for a fun place to
+                      take your kids or somewhere for your dog to get a good run
+                      around? Find the perfect activity with DSCVR. Deployment
+                      scheduled for Monday, 22nd of August.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick">
+                      <span className="label">Coming soon</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br/>
+                <Card>
+                  <CardImg alt="" src={``} top width="100%" />
+                  <CardBody>
+                    <CardTitle tag="h2"></CardTitle>
+                    <CardSubtitle
+                      className="mb-2 text-muted"
+                      tag="h5"
+                    ></CardSubtitle>
+                    <CardText></CardText>
+                    <Button href="">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardImg alt="" src={``} top width="100%" />
+                  <CardBody>
+                    <CardTitle tag="h2"></CardTitle>
+                    <CardSubtitle
+                      className="mb-2 text-muted"
+                      tag="h5"
+                    ></CardSubtitle>
+                    <CardText></CardText>
+                    <Button href="">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardImg alt="" src={``} top width="100%" />
+                  <CardBody>
+                    <CardTitle tag="h2"></CardTitle>
+                    <CardSubtitle
+                      className="mb-2 text-muted"
+                      tag="h5"
+                    ></CardSubtitle>
+                    <CardText></CardText>
+                    <Button href="">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardImg alt="" src={``} top width="100%" />
+                  <CardBody>
+                    <CardTitle tag="h2"></CardTitle>
+                    <CardSubtitle
+                      className="mb-2 text-muted"
+                      tag="h5"
+                    ></CardSubtitle>
+                    <CardText></CardText>
+                    <Button href="">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
                 <Card>
                   <CardImg alt="" src={``} top width="100%" />
                   <CardBody>
