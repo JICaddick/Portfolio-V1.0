@@ -5691,18 +5691,6 @@ gatsby-plugin-manifest@^2.2.38:
     semver "^7.3.2"
     sharp "^0.27.0"
 
-gatsby-plugin-netlify@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-5.0.1.tgz#3e7de3fcaf712e05e8de8b8de4753e1c79e538ff"
-  integrity sha512-siy/zX45fIEtfCApH3QkXG0u3mS0y/bf/J2mDMFOrfvhiyB35YDJfaWoRvon+UwJM4dYcMJY17sAnBaBfOQ9GA==
-  dependencies:
-    "@babel/runtime" "^7.16.7"
-    fs-extra "^10.0.0"
-    gatsby-core-utils "^3.5.2"
-    kebab-hash "^0.1.2"
-    lodash.mergewith "^4.6.2"
-    webpack-assets-manifest "^5.0.6"
-
 gatsby-plugin-page-creator@^2.10.2:
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.10.2.tgz#808046b292e844447c6539df759b23739ad30c6e"
