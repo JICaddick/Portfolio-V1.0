@@ -153,6 +153,206 @@ class Main extends React.Component {
                   </CardBody>
                 </Card>
                 <br/>
+                 <Card>
+                  <CardImg
+                    alt="Apartment App Picture"
+                    src={`../../apartment.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Apartment App</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Find Apartments For Rent
+                    </CardSubtitle>
+                    <CardText>
+                      Full stack, monolithic, React in Rails application.
+                      Featuring full CRUD functionality you can find, create,
+                      update, and delete apartments from your list. Mob
+                      programmed to near completion. Functionality edits and CSS
+                      pending.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br />
+                 <Card>
+                  <CardImg
+                    alt="Apartment App Picture"
+                    src={`../../apartment.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Apartment App</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Find Apartments For Rent
+                    </CardSubtitle>
+                    <CardText>
+                      Full stack, monolithic, React in Rails application.
+                      Featuring full CRUD functionality you can find, create,
+                      update, and delete apartments from your list. Mob
+                      programmed to near completion. Functionality edits and CSS
+                      pending.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br />
+                 <Card>
+                  <CardImg
+                    alt="Apartment App Picture"
+                    src={`../../apartment.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Apartment App</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Find Apartments For Rent
+                    </CardSubtitle>
+                    <CardText>
+                      Full stack, monolithic, React in Rails application.
+                      Featuring full CRUD functionality you can find, create,
+                      update, and delete apartments from your list. Mob
+                      programmed to near completion. Functionality edits and CSS
+                      pending.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card> 
+                <br />
+                  <Card>
+                  <CardImg
+                    alt="Apartment App Picture"
+                    src={`../../apartment.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Apartment App</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Find Apartments For Rent
+                    </CardSubtitle>
+                    <CardText>
+                      Full stack, monolithic, React in Rails application.
+                      Featuring full CRUD functionality you can find, create,
+                      update, and delete apartments from your list. Mob
+                      programmed to near completion. Functionality edits and CSS
+                      pending.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br />
+                 <Card>
+                  <CardImg
+                    alt="Apartment App Picture"
+                    src={`../../apartment.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Apartment App</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Find Apartments For Rent
+                    </CardSubtitle>
+                    <CardText>
+                      Full stack, monolithic, React in Rails application.
+                      Featuring full CRUD functionality you can find, create,
+                      update, and delete apartments from your list. Mob
+                      programmed to near completion. Functionality edits and CSS
+                      pending.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br />
+                 <Card>
+                  <CardImg
+                    alt="Apartment App Picture"
+                    src={`../../apartment.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Apartment App</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Find Apartments For Rent
+                    </CardSubtitle>
+                    <CardText>
+                      Full stack, monolithic, React in Rails application.
+                      Featuring full CRUD functionality you can find, create,
+                      update, and delete apartments from your list. Mob
+                      programmed to near completion. Functionality edits and CSS
+                      pending.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card> 
+                <br />
+                                 <Card>
+                  <CardImg
+                    alt="Apartment App Picture"
+                    src={`../../apartment.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Apartment App</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Find Apartments For Rent
+                    </CardSubtitle>
+                    <CardText>
+                      Full stack, monolithic, React in Rails application.
+                      Featuring full CRUD functionality you can find, create,
+                      update, and delete apartments from your list. Mob
+                      programmed to near completion. Functionality edits and CSS
+                      pending.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card> 
+                <br />
+                                 <Card>
+                  <CardImg
+                    alt="Apartment App Picture"
+                    src={`../../apartment.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Apartment App</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Find Apartments For Rent
+                    </CardSubtitle>
+                    <CardText>
+                      Full stack, monolithic, React in Rails application.
+                      Featuring full CRUD functionality you can find, create,
+                      update, and delete apartments from your list. Mob
+                      programmed to near completion. Functionality edits and CSS
+                      pending.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card> 
+                <br />
               </Col>
             </CardGroup>
           </span>
