@@ -99,7 +99,154 @@ class Main extends React.Component {
                   </CardBody>
                 </Card>
                 <br />
-                <Card>
+                 <Card>
+                  <CardImg
+                    alt="Adopt Me App"
+                    src={`../../adopt-me.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Adopt Me</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Find Apartments For Rent
+                    </CardSubtitle>
+                    <CardText>
+                      Adopt me is an app that allows you to search for pets in your area. It uses the Petfinder API to search for pets and display them on the page. It also allows you to filter the search results by animal type, breed, and location.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br />
+                 <Card>
+                  <CardImg
+                    alt="Tic-tac-potato"
+                    src={`../../tic-tac-potato-1.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Tic Tac Potato</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Find Apartments For Rent
+                    </CardSubtitle>
+                    <CardText>
+                      Tic Tac Potato is a game that allows you to play tic-tac-toe against a computer. It is built using React and styled using CSS.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br />
+                 <Card>
+                  <CardImg
+                    alt="Clock App"
+                    src={`../../clock.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Clock App</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      What time is it?
+                    </CardSubtitle>
+                    <CardText>
+                      Clock App is a simple app that displays the current time. It is built using Javascript and styled using CSS. It even features a super fun fact about The Elizabeth Tower - bet you didn't know that was Big Ben's official name!
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card> 
+                <br />
+                  <Card>
+                  <CardImg
+                    alt="Drum Kit"
+                    src={`../../drumkit.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Drum Kit</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      More of a coding wizard than a pinball wizard?
+                    </CardSubtitle>
+                    <CardText>
+                      Drum kit is a simple app that allows you to play a drum kit using your keyboard. It is built using Javascript and styled using CSS.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br />
+                 <Card>
+                  <CardImg
+                    alt="Canvas picture"
+                    src={`../../canvas.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">HTML 5 Canva App</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Scribble away on your own canvas.
+                    </CardSubtitle>
+                    <CardText>
+                      HTML5 Canvas App is a simple app that allows you to draw on a canvas using your mouse. It is built using Javascript and styled using CSS.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br />
+                 <Card>
+                  <CardImg
+                    alt="Flex Panel Gallery"
+                    src={`../../flexpanels.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">Flex Panel CSS effects</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Click the panels to see some cool CSS effects.
+                    </CardSubtitle>
+                    <CardText>
+                      Flex Panel CSS effects is a simple app that allows you to see some cool CSS effects. It is built using Javascript and styled using CSS.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card> 
+                <br />
+                                 <Card>
+                  <CardImg
+                    alt="L Psicologa perinatal"
+                    src={`../../psicologaperinatal.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">La Psicologa Perinatal</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Encuentra todo lo que necesitas para tu bebé.
+                    </CardSubtitle>
+                    <CardText>
+                      La Psicologa Perinatal es una tienda online escrito con Next.js y React y Tailwind CSS. Utiliza el Shopify API para mostrar los productos y el carrito de compras. Este Proyecto es un trabajo en progreso y lo estoy construyendo para mi esposa. Va a vender su cursos y productos para ayudar a las mujeres embarazadas y madres. 
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/Apartment-App">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card> 
+                <br />
+                                 <Card>
                   <CardImg
                     alt="Apartment App Picture"
                     src={`../../apartment.jpeg`}
@@ -122,7 +269,7 @@ class Main extends React.Component {
                       <span className="label">Source Code</span>
                     </Button>
                   </CardBody>
-                </Card>
+                </Card> 
                 <br />
                 <Card>
                   <CardImg
@@ -150,206 +297,6 @@ class Main extends React.Component {
                   </CardBody>
                 </Card>
                 <br/>
-                 <Card>
-                  <CardImg
-                    alt="Apartment App Picture"
-                    src={`../../apartment.jpeg`}
-                    top
-                    width="100%"
-                  />
-                  <CardBody>
-                    <CardTitle tag="h2">Apartment App</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
-                    </CardSubtitle>
-                    <CardText>
-                      Full stack, monolithic, React in Rails application.
-                      Featuring full CRUD functionality you can find, create,
-                      update, and delete apartments from your list. Mob
-                      programmed to near completion. Functionality edits and CSS
-                      pending.
-                    </CardText>
-                    <Button href="https://github.com/JICaddick/Apartment-App">
-                      <span className="label">Source Code</span>
-                    </Button>
-                  </CardBody>
-                </Card>
-                <br />
-                 <Card>
-                  <CardImg
-                    alt="Apartment App Picture"
-                    src={`../../apartment.jpeg`}
-                    top
-                    width="100%"
-                  />
-                  <CardBody>
-                    <CardTitle tag="h2">Apartment App</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
-                    </CardSubtitle>
-                    <CardText>
-                      Full stack, monolithic, React in Rails application.
-                      Featuring full CRUD functionality you can find, create,
-                      update, and delete apartments from your list. Mob
-                      programmed to near completion. Functionality edits and CSS
-                      pending.
-                    </CardText>
-                    <Button href="https://github.com/JICaddick/Apartment-App">
-                      <span className="label">Source Code</span>
-                    </Button>
-                  </CardBody>
-                </Card>
-                <br />
-                 <Card>
-                  <CardImg
-                    alt="Apartment App Picture"
-                    src={`../../apartment.jpeg`}
-                    top
-                    width="100%"
-                  />
-                  <CardBody>
-                    <CardTitle tag="h2">Apartment App</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
-                    </CardSubtitle>
-                    <CardText>
-                      Full stack, monolithic, React in Rails application.
-                      Featuring full CRUD functionality you can find, create,
-                      update, and delete apartments from your list. Mob
-                      programmed to near completion. Functionality edits and CSS
-                      pending.
-                    </CardText>
-                    <Button href="https://github.com/JICaddick/Apartment-App">
-                      <span className="label">Source Code</span>
-                    </Button>
-                  </CardBody>
-                </Card> 
-                <br />
-                  <Card>
-                  <CardImg
-                    alt="Apartment App Picture"
-                    src={`../../apartment.jpeg`}
-                    top
-                    width="100%"
-                  />
-                  <CardBody>
-                    <CardTitle tag="h2">Apartment App</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
-                    </CardSubtitle>
-                    <CardText>
-                      Full stack, monolithic, React in Rails application.
-                      Featuring full CRUD functionality you can find, create,
-                      update, and delete apartments from your list. Mob
-                      programmed to near completion. Functionality edits and CSS
-                      pending.
-                    </CardText>
-                    <Button href="https://github.com/JICaddick/Apartment-App">
-                      <span className="label">Source Code</span>
-                    </Button>
-                  </CardBody>
-                </Card>
-                <br />
-                 <Card>
-                  <CardImg
-                    alt="Apartment App Picture"
-                    src={`../../apartment.jpeg`}
-                    top
-                    width="100%"
-                  />
-                  <CardBody>
-                    <CardTitle tag="h2">Apartment App</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
-                    </CardSubtitle>
-                    <CardText>
-                      Full stack, monolithic, React in Rails application.
-                      Featuring full CRUD functionality you can find, create,
-                      update, and delete apartments from your list. Mob
-                      programmed to near completion. Functionality edits and CSS
-                      pending.
-                    </CardText>
-                    <Button href="https://github.com/JICaddick/Apartment-App">
-                      <span className="label">Source Code</span>
-                    </Button>
-                  </CardBody>
-                </Card>
-                <br />
-                 <Card>
-                  <CardImg
-                    alt="Apartment App Picture"
-                    src={`../../apartment.jpeg`}
-                    top
-                    width="100%"
-                  />
-                  <CardBody>
-                    <CardTitle tag="h2">Apartment App</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
-                    </CardSubtitle>
-                    <CardText>
-                      Full stack, monolithic, React in Rails application.
-                      Featuring full CRUD functionality you can find, create,
-                      update, and delete apartments from your list. Mob
-                      programmed to near completion. Functionality edits and CSS
-                      pending.
-                    </CardText>
-                    <Button href="https://github.com/JICaddick/Apartment-App">
-                      <span className="label">Source Code</span>
-                    </Button>
-                  </CardBody>
-                </Card> 
-                <br />
-                                 <Card>
-                  <CardImg
-                    alt="Apartment App Picture"
-                    src={`../../apartment.jpeg`}
-                    top
-                    width="100%"
-                  />
-                  <CardBody>
-                    <CardTitle tag="h2">Apartment App</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
-                    </CardSubtitle>
-                    <CardText>
-                      Full stack, monolithic, React in Rails application.
-                      Featuring full CRUD functionality you can find, create,
-                      update, and delete apartments from your list. Mob
-                      programmed to near completion. Functionality edits and CSS
-                      pending.
-                    </CardText>
-                    <Button href="https://github.com/JICaddick/Apartment-App">
-                      <span className="label">Source Code</span>
-                    </Button>
-                  </CardBody>
-                </Card> 
-                <br />
-                                 <Card>
-                  <CardImg
-                    alt="Apartment App Picture"
-                    src={`../../apartment.jpeg`}
-                    top
-                    width="100%"
-                  />
-                  <CardBody>
-                    <CardTitle tag="h2">Apartment App</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
-                    </CardSubtitle>
-                    <CardText>
-                      Full stack, monolithic, React in Rails application.
-                      Featuring full CRUD functionality you can find, create,
-                      update, and delete apartments from your list. Mob
-                      programmed to near completion. Functionality edits and CSS
-                      pending.
-                    </CardText>
-                    <Button href="https://github.com/JICaddick/Apartment-App">
-                      <span className="label">Source Code</span>
-                    </Button>
-                  </CardBody>
-                </Card> 
-                <br />
               </Col>
             </CardGroup>
           </span>
