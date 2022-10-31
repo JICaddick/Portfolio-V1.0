@@ -109,7 +109,7 @@ class Main extends React.Component {
                   <CardBody>
                     <CardTitle tag="h2">Adopt Me</CardTitle>
                     <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
+                      Find Pets To Adopt
                     </CardSubtitle>
                     <CardText>
                       Adopt me is an app that allows you to search for pets in your area. It uses the Petfinder API to search for pets and display them on the page. It also allows you to filter the search results by animal type, breed, and location.
