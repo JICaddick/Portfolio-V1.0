@@ -177,7 +177,7 @@ class Main extends React.Component {
                     <CardText>
                       Drum kit is a simple app that allows you to play a drum kit using your keyboard. It is built using Javascript and styled using CSS.
                     </CardText>
-                    <Button href="https://github.com/JICaddick/Apartment-App">
+                    <Button href="https://jicaddick.github.io/Who-s-Drum-Kit/">
                       <span className="label">Source Code</span>
                     </Button>
                   </CardBody>
