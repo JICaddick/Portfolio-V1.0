@@ -109,7 +109,7 @@ class Main extends React.Component {
                   <CardBody>
                     <CardTitle tag="h2">Adopt Me</CardTitle>
                     <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
+                      A Pet Adoption Application
                     </CardSubtitle>
                     <CardText>
                       Adopt me is an app that allows you to search for pets in your area. It uses the Petfinder API to search for pets and display them on the page. It also allows you to filter the search results by animal type, breed, and location.
@@ -130,7 +130,7 @@ class Main extends React.Component {
                   <CardBody>
                     <CardTitle tag="h2">Tic Tac Potato</CardTitle>
                     <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Find Apartments For Rent
+                      It's Tic Tac Toe but y'know, with potatoes.
                     </CardSubtitle>
                     <CardText>
                       Tic Tac Potato is a game that allows you to play tic-tac-toe against a computer. It is built using React and styled using CSS.
