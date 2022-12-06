@@ -70,6 +70,32 @@ class Main extends React.Component {
               <Col sm={4}>
                 <Card>
                   <CardImg
+                    alt="L Psicologa perinatal"
+                    src={`../../psicologaperinatal.jpeg`}
+                    top
+                    width="100%"
+                  />
+                  <CardBody>
+                    <CardTitle tag="h2">La Psicologa Perinatal</CardTitle>
+                    <CardSubtitle className="mb-2 text-muted" tag="h5">
+                      Encuentra todo lo que necesitas para tu bebé.
+                    </CardSubtitle>
+                    <CardText>
+                      La Psicologa Perinatal es una tienda online escrito con
+                      Next.js y React y Tailwind CSS. Utiliza el Shopify API
+                      para mostrar los productos y el carrito de compras. Este
+                      Proyecto es un trabajo en progreso y lo estoy construyendo
+                      para mi esposa. Va a vender su cursos y productos para
+                      ayudar a las mujeres embarazadas y madres.
+                    </CardText>
+                    <Button href="https://github.com/JICaddick/La-Psicologa-Perinatal">
+                      <span className="label">Source Code</span>
+                    </Button>
+                  </CardBody>
+                </Card>
+                <br />
+                <Card>
+                  <CardImg
                     alt="Monkey Tinder"
                     src={`../../monkeytinder.jpeg`}
                     top
@@ -234,32 +260,6 @@ class Main extends React.Component {
                       and styled using CSS.
                     </CardText>
                     <Button href="https://github.com/JICaddick/flex-panel-gallery">
-                      <span className="label">Source Code</span>
-                    </Button>
-                  </CardBody>
-                </Card>
-                <br />
-                <Card>
-                  <CardImg
-                    alt="L Psicologa perinatal"
-                    src={`../../psicologaperinatal.jpeg`}
-                    top
-                    width="100%"
-                  />
-                  <CardBody>
-                    <CardTitle tag="h2">La Psicologa Perinatal</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h5">
-                      Encuentra todo lo que necesitas para tu bebé.
-                    </CardSubtitle>
-                    <CardText>
-                      La Psicologa Perinatal es una tienda online escrito con
-                      Next.js y React y Tailwind CSS. Utiliza el Shopify API
-                      para mostrar los productos y el carrito de compras. Este
-                      Proyecto es un trabajo en progreso y lo estoy construyendo
-                      para mi esposa. Va a vender su cursos y productos para
-                      ayudar a las mujeres embarazadas y madres.
-                    </CardText>
-                    <Button href="https://github.com/JICaddick/La-Psicologa-Perinatal">
                       <span className="label">Source Code</span>
                     </Button>
                   </CardBody>
