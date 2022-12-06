@@ -91,6 +91,10 @@ class Main extends React.Component {
                     <Button href="https://github.com/JICaddick/La-Psicologa-Perinatal">
                       <span className="label">Source Code</span>
                     </Button>
+                    <br></br>
+                    <Button href="https://la-psicologa-perinatal.vercel.app/">
+                      <span className="label">See it Live Here!</span>
+                    </Button>
                   </CardBody>
                 </Card>
                 <br />
@@ -162,9 +166,11 @@ class Main extends React.Component {
                       It's Tic Tac Toe but y'know, with potatoes.
                     </CardSubtitle>
                     <CardText>
-                      Tic Tac Potato is a game that allows you to play
-                      tic-tac-toe against a computer. It is built using React
-                      and styled using CSS.
+                      Tic Tac Potato is a simple game of Tic Tac Toe. It was
+                      built using HTML, CSS, and JavaScript. It is a single page
+                      application that allows two players to play against each
+                      other. It also keeps track of the score and displays the
+                      winner. Coded while at LEARN Academy.
                     </CardText>
                     <Button href="https://github.com/JICaddick/Tic-Tac-Potato-AI-Version">
                       <span className="label">Source Code</span>
@@ -193,6 +199,10 @@ class Main extends React.Component {
                     <Button href="https://github.com/JICaddick/Clock-App">
                       <span className="label">Source Code</span>
                     </Button>
+                    <br></br>
+                    <Button href="https://jicaddick.github.io/Clock-App/">
+                      <span className="label">See it Live Here!</span>
+                    </Button>
                   </CardBody>
                 </Card>
                 <br />
@@ -213,8 +223,12 @@ class Main extends React.Component {
                       kit using your keyboard. It is built using Javascript and
                       styled using CSS.
                     </CardText>
-                    <Button href="https://jicaddick.github.io/Who-s-Drum-Kit/">
+                    <Button href="https://github.com/JICaddick/Who-s-Drum-Kit">
                       <span className="label">Source Code</span>
+                    </Button>
+                    <br></br>
+                    <Button href="https://jicaddick.github.io/Who-s-Drum-Kit/">
+                      <span className="label">See it Live Here!</span>
                     </Button>
                   </CardBody>
                 </Card>
@@ -238,6 +252,10 @@ class Main extends React.Component {
                     </CardText>
                     <Button href="https://github.com/JICaddick/fun-with-html5-canvas">
                       <span className="label">Source Code</span>
+                    </Button>
+                    <br></br>
+                    <Button href="https://jicaddick.github.io/fun-with-html5-canvas/">
+                      <span className="label">See it Live Here!</span>
                     </Button>
                   </CardBody>
                 </Card>
@@ -307,11 +325,10 @@ class Main extends React.Component {
                       local? No idea how to spend your weekend or where to take
                       your partner out on a date? Looking for a fun place to
                       take your kids or somewhere for your dog to get a good run
-                      around? Find the perfect activity with DSCVR. Deployment
-                      scheduled for Monday, 22nd of August.
+                      around? Find the perfect activity with DSCVR. DSCVR is a work in progress. Functionality edits and CSS pending.
                     </CardText>
-                    <Button href="https://github.com/JICaddick">
-                      <span className="label">Coming soon</span>
+                    <Button href="https://github.com/JICaddick/DSCVR">
+                      <span className="label">Source Code</span>
                     </Button>
                   </CardBody>
                 </Card>
