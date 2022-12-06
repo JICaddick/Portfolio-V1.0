@@ -92,7 +92,7 @@ class Main extends React.Component {
                       <span className="label">Source Code</span>
                     </Button>
                     <br></br>
-                    <Button href="https://la-psicologa-perinatal.vercel.app/">
+                    <Button href="https://la-psicologa-perinatal.vercel.app">
                       <span className="label">See it Live Here!</span>
                     </Button>
                   </CardBody>
@@ -200,7 +200,7 @@ class Main extends React.Component {
                       <span className="label">Source Code</span>
                     </Button>
                     <br />
-                    <Button href="https://jicaddick.github.io/Clock-App/">
+                    <Button href="https://jicaddick.github.io/Clock-App">
                       <span className="label">See it Live Here!</span>
                     </Button>
                   </CardBody>
@@ -227,7 +227,7 @@ class Main extends React.Component {
                       <span className="label">Source Code</span>
                     </Button>
                     <br />
-                    <Button href="https://jicaddick.github.io/Who-s-Drum-Kit/">
+                    <Button href="https://jicaddick.github.io/Who-s-Drum-Kit">
                       <span className="label">See it Live Here!</span>
                     </Button>
                   </CardBody>
@@ -254,7 +254,7 @@ class Main extends React.Component {
                       <span className="label">Source Code</span>
                     </Button>
                     <br />
-                    <Button href="https://jicaddick.github.io/fun-with-html5-canvas/">
+                    <Button href="https://jicaddick.github.io/fun-with-html5-canvas">
                       <span className="label">See it Live Here!</span>
                     </Button>
                   </CardBody>
