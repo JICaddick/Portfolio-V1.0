@@ -199,7 +199,7 @@ class Main extends React.Component {
                     <Button href="https://github.com/JICaddick/Clock-App">
                       <span className="label">Source Code</span>
                     </Button>
-                    <br></br>
+                    <br />
                     <Button href="https://jicaddick.github.io/Clock-App/">
                       <span className="label">See it Live Here!</span>
                     </Button>
@@ -226,7 +226,7 @@ class Main extends React.Component {
                     <Button href="https://github.com/JICaddick/Who-s-Drum-Kit">
                       <span className="label">Source Code</span>
                     </Button>
-                    <br></br>
+                    <br />
                     <Button href="https://jicaddick.github.io/Who-s-Drum-Kit/">
                       <span className="label">See it Live Here!</span>
                     </Button>
@@ -253,7 +253,7 @@ class Main extends React.Component {
                     <Button href="https://github.com/JICaddick/fun-with-html5-canvas">
                       <span className="label">Source Code</span>
                     </Button>
-                    <br></br>
+                    <br />
                     <Button href="https://jicaddick.github.io/fun-with-html5-canvas/">
                       <span className="label">See it Live Here!</span>
                     </Button>
@@ -325,7 +325,8 @@ class Main extends React.Component {
                       local? No idea how to spend your weekend or where to take
                       your partner out on a date? Looking for a fun place to
                       take your kids or somewhere for your dog to get a good run
-                      around? Find the perfect activity with DSCVR. DSCVR is a work in progress. Functionality edits and CSS pending.
+                      around? Find the perfect activity with DSCVR. DSCVR is a
+                      work in progress. Functionality edits and CSS pending.
                     </CardText>
                     <Button href="https://github.com/JICaddick/DSCVR">
                       <span className="label">Source Code</span>
