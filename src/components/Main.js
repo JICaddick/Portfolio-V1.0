@@ -302,7 +302,11 @@ class Main extends React.Component {
                       programmed to near completion. Functionality edits and CSS
                       pending.
                     </CardText>
-                    <Button href="https://github.com/JICaddick/Apartment-App">
+                    <Button
+                      href="https://github.com/JICaddick/Apartment-App"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Source Code</span>
                     </Button>
                   </CardBody>
@@ -328,7 +332,11 @@ class Main extends React.Component {
                       around? Find the perfect activity with DSCVR. DSCVR is a
                       work in progress. Functionality edits and CSS pending.
                     </CardText>
-                    <Button href="https://github.com/JICaddick/DSCVR">
+                    <Button
+                      href="https://github.com/JICaddick/DSCVR"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Source Code</span>
                     </Button>
                   </CardBody>
