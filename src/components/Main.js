@@ -88,11 +88,19 @@ class Main extends React.Component {
                       para mi esposa. Va a vender su cursos y productos para
                       ayudar a las mujeres embarazadas y madres.
                     </CardText>
-                    <Button href="https://github.com/JICaddick/La-Psicologa-Perinatal">
+                    <Button
+                      href="https://github.com/JICaddick/La-Psicologa-Perinatal"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Source Code</span>
                     </Button>
                     <br></br>
-                    <Button href="https://la-psicologa-perinatal.vercel.app">
+                    <Button
+                      href="https://la-psicologa-perinatal.vercel.app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">See it Live Here!</span>
                     </Button>
                   </CardBody>
@@ -119,11 +127,19 @@ class Main extends React.Component {
                       we figured it's only a matter of time before monkeys start
                       swiping too! Bug fix pending.
                     </CardText>
-                    <Button href="https://github.com/JICaddick/Monkey-Tinder-Frontend">
+                    <Button
+                      href="https://github.com/JICaddick/Monkey-Tinder-Frontend"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Front End</span>
                     </Button>
                     <br />
-                    <Button href="https://github.com/JICaddick/Monkey-Tinder-Backend">
+                    <Button
+                      href="https://github.com/JICaddick/Monkey-Tinder-Backend"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Back End</span>
                     </Button>
                   </CardBody>
@@ -147,7 +163,11 @@ class Main extends React.Component {
                       and display them on the page. It also allows you to filter
                       the search results by animal type, breed, and location.
                     </CardText>
-                    <Button href="https://github.com/JICaddick/adopt-me1">
+                    <Button
+                      href="https://github.com/JICaddick/adopt-me1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Source Code</span>
                     </Button>
                   </CardBody>
@@ -172,7 +192,11 @@ class Main extends React.Component {
                       other. It also keeps track of the score and displays the
                       winner. Coded while at LEARN Academy.
                     </CardText>
-                    <Button href="https://github.com/JICaddick/Tic-Tac-Potato-AI-Version">
+                    <Button
+                      href="https://github.com/JICaddick/Tic-Tac-Potato-AI-Version"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Source Code</span>
                     </Button>
                   </CardBody>
@@ -196,11 +220,19 @@ class Main extends React.Component {
                       features a super fun fact about The Elizabeth Tower - bet
                       you didn't know that was Big Ben's official name!
                     </CardText>
-                    <Button href="https://github.com/JICaddick/Clock-App">
+                    <Button
+                      href="https://github.com/JICaddick/Clock-App"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Source Code</span>
                     </Button>
                     <br />
-                    <Button href="https://jicaddick.github.io/Clock-App">
+                    <Button
+                      href="https://jicaddick.github.io/Clock-App"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">See it Live Here!</span>
                     </Button>
                   </CardBody>
@@ -223,11 +255,19 @@ class Main extends React.Component {
                       kit using your keyboard. It is built using Javascript and
                       styled using CSS.
                     </CardText>
-                    <Button href="https://github.com/JICaddick/Who-s-Drum-Kit">
+                    <Button
+                      href="https://github.com/JICaddick/Who-s-Drum-Kit"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Source Code</span>
                     </Button>
                     <br />
-                    <Button href="https://jicaddick.github.io/Who-s-Drum-Kit">
+                    <Button
+                      href="https://jicaddick.github.io/Who-s-Drum-Kit"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">See it Live Here!</span>
                     </Button>
                   </CardBody>
@@ -250,11 +290,19 @@ class Main extends React.Component {
                       on a canvas using your mouse. It is built using Javascript
                       and styled using CSS.
                     </CardText>
-                    <Button href="https://github.com/JICaddick/fun-with-html5-canvas">
+                    <Button
+                      href="https://github.com/JICaddick/fun-with-html5-canvas"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Source Code</span>
                     </Button>
                     <br />
-                    <Button href="https://jicaddick.github.io/fun-with-html5-canvas">
+                    <Button
+                      href="https://jicaddick.github.io/fun-with-html5-canvas"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">See it Live Here!</span>
                     </Button>
                   </CardBody>
@@ -277,7 +325,11 @@ class Main extends React.Component {
                       see some cool CSS effects. It is built using Javascript
                       and styled using CSS.
                     </CardText>
-                    <Button href="https://github.com/JICaddick/flex-panel-gallery">
+                    <Button
+                      href="https://github.com/JICaddick/flex-panel-gallery"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <span className="label">Source Code</span>
                     </Button>
                   </CardBody>
