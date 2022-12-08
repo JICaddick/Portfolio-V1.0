@@ -489,6 +489,18 @@ class Main extends React.Component {
                     width="80px"
                     height="80px"
                   ></img>
+                  <img
+                    src={`../../shopify.jpeg`}
+                    alt="shopify"
+                    width="80px"
+                    height="80px"
+                  ></img>
+                  <img
+                    src={`../../next.jpeg`}
+                    alt="nextjs"
+                    width="80px"
+                    height="80px"
+                  ></img>
                 </th>
               </tr>
             </thead>
