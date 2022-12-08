@@ -489,7 +489,7 @@ class Main extends React.Component {
                     width="80px"
                     height="80px"
                   ></img>
-                  <img
+                  {/* <img
                     src={`../../shopify.jpeg`}
                     alt="shopify"
                     width="80px"
@@ -500,7 +500,7 @@ class Main extends React.Component {
                     alt="nextjs"
                     width="80px"
                     height="80px"
-                  ></img>
+                  ></img> */}
                 </th>
               </tr>
             </thead>
