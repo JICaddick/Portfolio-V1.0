@@ -35,16 +35,13 @@ class Main extends React.Component {
           <p>
             I've always been passionate about technology as a user but until
             fairly I recently hadn't considered venturing to the other side of
-            technology and learning about development. About 6 months ago I
+            technology and learning about development. In early 2022 I
             signed up to a free JavaScript course online and since then I've
-            been hooked. From functionality to structure, UI/UX to RoR, and even
-            various software applications, every new technology is an adventure
-            in and of itself.
+            been hooked. From functionality to structure, UI/UX to Algorithms, and more recently AI, every new technology is an adventure in and of itself.
           </p>
           <p>
-            I'm thoroughly enjoying the variety of full stack development at
-            LEARN and can see myself in either a full stack or front-end role in
-            the very near future.
+            I thoroughly enjoyed the variety of full stack development at
+            LEARN coding bootcamp and have settled into my frontend role at Ripe Metrics nicely.
           </p>
           <p>
             Please enjoy your time here on my portfolio; I really care about the
